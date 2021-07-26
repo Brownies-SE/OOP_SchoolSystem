@@ -10,15 +10,23 @@ public class Teachers {
         this.salary = salary;
     }
 
-    public getId() {
+    public int getId() {
         return id;
     }
 
-    public getName() {
+    public String getName() {
         return name;
     }
 
-    public getSalary() {
+    public int getSalary() {
         return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public String toString() {
+        return name + salary;
     }
 }
