@@ -27,6 +27,6 @@ public class Teachers {
     }
 
     public String toString() {
-        return name + salary;
+        return "Name: " + name + ", salary: " + salary;
     }
 }

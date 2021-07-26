@@ -26,4 +26,8 @@ public class School {
     public void addStudent(Students student) {
         students.add(student);
     }
+
+    public String toString() {
+        return "Teachers: " + teachers + " Students: " + students;
+    }
 }

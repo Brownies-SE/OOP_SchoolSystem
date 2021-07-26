@@ -26,6 +26,6 @@ public class Students {
         return grade;
     }
     public String toString() {
-        return name + grade;
+        return "Name: " + name + ", Grade: " + grade;
     }
 }
